@@ -15,9 +15,6 @@ for number, (item, price) in menu.items():
     print(f"{number}. {item} - ${price:.2f}")
 # Get user's food choice
 choice = int(input("\nEnter your choice (1-4): "))
-# Add else for invalid input
-
-
 # Check if choice is valid
 if choice not in menu:
     print("Invalid choice. Please restart the program.")
